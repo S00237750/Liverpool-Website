@@ -2,7 +2,22 @@
 <html>
   <head>
     <title>Liverpool FC - Players & Legends</title>
+    <meta name="description" content="Liverpool FC is a professional football club based in Liverpool, England.">
     <link rel="stylesheet" href="/Liverpool-Website/css/style.css">
+    <style>
+      body {background: url('bg2.png') no-repeat bottom right;}
+      section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex-basis: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+    </style>
   </head>
   <body>
     <nav>
@@ -40,5 +55,16 @@
       <li>Robbie Fowler - 183 goals</li>
       <li>Kevin Keegan - 100 goals</li>
     </ul>
+    <section>
+      <div class="column">
+        <h2>Column 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec mauris euismod, cursus leo vel, blandit nisi. Duis vestibulum, velit non maximus feugiat, tortor felis aliquet urna, sit amet suscipit velit velit eu est.</p>
+      </div>
+      <div class="column">
+        <h2>Column 2</h2>
+        <p>Sed posuere ligula non libero posuere, non convallis massa euismod. Nulla dapibus tellus ac odio malesuada mattis. Ut feugiat quam nunc, vitae feugiat mauris auctor vel. Donec maximus erat vitae diam hendrerit lacinia.</p>
+      </div>
+    </section>
+    
   </body>
 </html>

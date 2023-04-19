@@ -31,3 +31,5 @@ nav ul li a:hover {
     background: white;
 }
 footer {padding: 10px; border: 5px solid #fff;}
+table {width: 60%;}
+td {padding: 10px;}
